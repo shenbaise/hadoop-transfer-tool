@@ -6,7 +6,7 @@ hadoop-transfer-tool
 
 <h2>hadoop & ftp file transfer tool</h2>
 
-this tool is used to transfer files to c01's hdfs.
+this tool is used to transfer files to hdfs.
 
 usage: transfer [-D <arg>] [-d <arg>] [--echo <arg>] [-F
        <arg>] [-H <arg>] [-h] [--list <arg>] [-o <arg>] [-P
@@ -51,7 +51,7 @@ example 2: java -jar transfer.jar -H 192.168.*.* -p 9000 -F
                           
  -U,--user <arg>          user name
  
-this tool is used to transfer files to c01's hdfs.
+this tool is used to transfer files to hdfs.
 
 it support ftp & hdfs.
 
